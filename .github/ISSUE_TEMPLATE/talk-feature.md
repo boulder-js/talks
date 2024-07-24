@@ -28,4 +28,4 @@ assignees: ''
 
 <!-- We expect all of our speakers to uphold our Code of Conduct, so please take a minute to read through it. -->
 
-- [ ] I've read and agree to the [Code of Conduct](https://github.com/boulder-js/home/blob/main/CODE_OF_CONDUCT.md)
+- [ ] I've read and agree to the [Code of Conduct](https://github.com/boulder-js/.github/blob/main/CODE_OF_CONDUCT.md)
