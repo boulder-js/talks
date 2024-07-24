@@ -19,7 +19,7 @@ jobs:
       - name: gitevents
         uses: gitevents/action@v1.1.1
         with:
-          enable-auto-invite: false
+          enable-auto-invite: true
           gitevents-app-id: ${{ secrets.GE_APP_ID }}
           gitevents-app-private-key: ${{ secrets.GE_APP_PRIVATE_KEY }}
           gitevents-app-installation-id: ${{ secrets.GE_APP_INSTALLATION_ID }}
