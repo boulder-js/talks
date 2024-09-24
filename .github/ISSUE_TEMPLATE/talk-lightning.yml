@@ -29,7 +29,7 @@ body:
       description: First-time speakers are automatically moved to the top of our waitlist and we're able to offer additional support with abstract writing, slide prep, run-throughs or whatever else you may need. So if this'll be your first talk, let us know!
       options:
         - label: This will be my first tech talk
-          required: true
+          required: false
   - type: checkboxes
     id: code-of-conduct
     attributes:
