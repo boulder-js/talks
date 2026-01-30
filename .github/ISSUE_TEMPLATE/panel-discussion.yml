@@ -1,0 +1,50 @@
+name: Panel discussion proposal
+description: Panel Discussion
+title: 'Title'
+labels: ['Talk: Panel :speech_balloon:']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hey there :wave:. We're using [GitEvents](http://gitevents.org) to manage talks based on issues.
+  - type: textarea
+    id: topic
+    attributes:
+      label: Topic
+      description: Describe the topic for the panel discussion. Try to stick to 500 characters.
+    validations:
+      required: true
+  - type: textarea
+    id: panelists
+    attributes:
+      label: Panelists
+      description: List the proposed panelists (one per line, or comma-separated)
+      placeholder: |
+        - Panelist 1
+        - Panelist 2
+        - Panelist 3
+    validations:
+      required: true
+  - type: input
+    id: moderator
+    attributes:
+      label: Moderator
+      description: Who will moderate the panel discussion?
+    validations:
+      required: true
+  - type: input
+    id: startDate
+    attributes:
+      label: Date
+      description: Earliest Date (dd.mm.yyyy)
+      placeholder: '31.03.2024'
+    validations:
+      required: true
+  - type: checkboxes
+    id: code-of-conduct
+    attributes:
+      label: Code of Conduct
+      description: The Code of Conduct helps create a safe space for everyone. We require that everyone agrees to it.
+      options:
+        - label: I agree to follow this project's [Code of Conduct](https://github.com/boulder-js/.github/blob/main/CODE_OF_CONDUCT.md)
+          required: true
